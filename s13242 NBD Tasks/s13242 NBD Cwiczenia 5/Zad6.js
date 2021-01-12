@@ -1,0 +1,103 @@
+﻿actor,con
+"{born:1978.0,name:Emil Eifrem}",1.0
+"{born:1960.0,name:Hugo Weaving}",5.0
+"{born:1961.0,name:Laurence Fishburne}",3.0
+"{born:1967.0,name:Carrie-Anne Moss}",3.0
+"{born:1964.0,name:Keanu Reeves}",7.0
+"{born:1940.0,name:Al Pacino}",1.0
+"{born:1975.0,name:Charlize Theron}",2.0
+"{born:1967.0,name:James Marshall}",1.0
+"{born:1957.0,name:Kevin Pollak}",1.0
+"{born:1943.0,name:J.T. Walsh}",2.0
+"{born:1961.0,name:Aaron Sorkin}",1.0
+"{born:1968.0,name:Cuba Gooding Jr.}",4.0
+"{born:1948.0,name:Christopher Guest}",1.0
+"{born:1971.0,name:Noah Wyle}",1.0
+"{born:1966.0,name:Kiefer Sutherland}",2.0
+"{born:1958.0,name:Kevin Bacon}",3.0
+"{born:1962.0,name:Demi Moore}",1.0
+"{born:1937.0,name:Jack Nicholson}",5.0
+"{born:1962.0,name:Tom Cruise}",3.0
+"{born:1959.0,name:Val Kilmer}",1.0
+"{born:1961.0,name:Meg Ryan}",5.0
+"{born:1933.0,name:Tom Skerritt}",1.0
+"{born:1957.0,name:Kelly McGillis}",1.0
+"{born:1962.0,name:Anthony Edwards}",1.0
+"{born:1974.0,name:Jerry O'Connell}",2.0
+"{born:1961.0,name:Bonnie Hunt}",2.0
+"{born:1970.0,name:Jay Mohr}",1.0
+"{born:1996.0,name:Jonathan Lipnicki}",1.0
+"{born:1969.0,name:Renee Zellweger}",1.0
+"{born:1962.0,name:Kelly Preston}",1.0
+"{born:1971.0,name:Regina King}",1.0
+"{born:1970.0,name:River Phoenix}",1.0
+"{born:1942.0,name:Marshall Bell}",2.0
+"{born:1972.0,name:Wil Wheaton}",1.0
+"{born:1966.0,name:John Cusack}",1.0
+"{born:1971.0,name:Corey Feldman}",1.0
+"{born:1963.0,name:Helen Hunt}",3.0
+"{born:1963.0,name:Greg Kinnear}",2.0
+"{born:1951.0,name:Robin Williams}",3.0
+"{born:1929.0,name:Max von Sydow}",2.0
+"{born:1942.0,name:Werner Herzog}",1.0
+"{born:1960.0,name:Annabella Sciorra}",1.0
+"{born:1970.0,name:Ethan Hawke}",1.0
+"{born:1971.0,name:Rick Yune}",2.0
+"{born:1940.0,name:James Cromwell}",2.0
+"{born:1956.0,name:Tom Hanks}",12.0
+"{born:1968.0,name:Parker Posey}",1.0
+"{born:1967.0,name:Steve Zahn}",2.0
+"{born:1973.0,name:Dave Chappelle}",1.0
+"{born:1949.0,name:Victor Garber}",1.0
+"{born:1953.0,name:Bill Pullman}",1.0
+"{born:1956.0,name:Rita Wilson}",1.0
+"{born:1962.0,name:Rosie O'Donnell}",2.0
+"{born:1956.0,name:Nathan Lane}",2.0
+"{born:1956.0,name:Carrie Fisher}",1.0
+"{born:1948.0,name:Billy Crystal}",1.0
+"{born:1949.0,name:Bruno Kirby}",1.0
+"{born:1977.0,name:Liv Tyler}",1.0
+"{born:1970.0,name:Brooke Langton}",1.0
+"{born:1968.0,name:Orlando Jones}",1.0
+"{born:1930.0,name:Gene Hackman}",3.0
+"{born:1954.0,name:Zach Grenier}",2.0
+"{born:1974.0,name:Christian Bale}",1.0
+"{born:1930.0,name:Clint Eastwood}",1.0
+"{born:1930.0,name:Richard Harris}",1.0
+"{born:1958.0,name:Ice-T}",1.0
+"{born:1968.0,name:Dina Meyer}",1.0
+"{born:1947.0,name:Takeshi Kitano}",1.0
+"{born:1949.0,name:Jim Broadbent}",1.0
+"{born:1966.0,name:Halle Berry}",1.0
+"{born:1939.0,name:Ian McKellen}",1.0
+"{born:1976.0,name:Audrey Tautou}",1.0
+"{born:1971.0,name:Paul Bettany}",1.0
+"{born:1940.0,name:John Hurt}",1.0
+"{born:1946.0,name:Stephen Rea}",1.0
+"{born:1981.0,name:Natalie Portman}",1.0
+"{born:1967.0,name:Ben Miles}",3.0
+"{born:1985.0,name:Emile Hirsch}",1.0
+"{born:1982.0,name:Rain}",2.0
+"{born:1980.0,name:Christina Ricci}",1.0
+"{born:1946.0,name:Susan Sarandon}",1.0
+"{born:1960.0,name:John Goodman}",1.0
+"{born:1966.0,name:Matthew Fox}",1.0
+{name:Naomie Harris},1.0
+"{born:1968.0,name:Sam Rockwell}",2.0
+"{born:1959.0,name:Patricia Clarkson}",1.0
+"{born:1957.0,name:Michael Clarke Duncan}",1.0
+"{born:1953.0,name:David Morse}",1.0
+"{born:1955.0,name:Gary Sinise}",2.0
+"{born:1969.0,name:Michael Sheen}",1.0
+"{born:1938.0,name:Frank Langella}",1.0
+"{born:1960.0,name:Oliver Platt}",2.0
+"{born:1965.0,name:John C. Reilly}",1.0
+"{born:1944.0,name:Danny DeVito}",2.0
+"{born:1950.0,name:Ed Harris}",1.0
+"{born:1955.0,name:Bill Paxton}",3.0
+"{born:1967.0,name:Philip Seymour Hoffman}",2.0
+"{born:1946.0,name:Diane Keaton}",1.0
+"{born:1967.0,name:Julia Roberts}",1.0
+"{born:1954.0,name:Madonna}",1.0
+"{born:1956.0,name:Geena Davis}",1.0
+"{born:1963.0,name:Lori Petty}",1.0

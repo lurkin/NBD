@@ -1,0 +1,28 @@
+1.	MATCH (movie:Movie) RETURN movie
+2.	MATCH (actor:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies) RETURN actor,movies
+3.	MATCH (actor:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies)<-[:DIRECTED]- (director:Person) RETURN actor,movies,director
+4.	MATCH (actor:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies)<-[:ACTED_IN]- (coactor:Person) RETURN actor,movies,coactor
+5.	MATCH (othermovies)<-[:ACTED_IN]-(actor)-[:ACTED_IN]->(movies {title:"The Matrix"}) RETURN othermovies,actor,movies
+6.	MATCH (actor)-[:ACTED_IN]->(movies ) WITH actor, count(movies) AS con WHERE con > 0 return actor, con
+7.	MATCH (a)-[:DIRECTED]->(m)<-[:WROTE]-(a) RETURN a,m
+8.	MATCH (a {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(b {name:"Keanu Reeves"}) RETURN a,m,b
+9.	CREATE (camerica:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization. '})
+CREATE (Joe:Person {name:'Joe Johnston', born:1950}) 
+CREATE (Christ:Person {name:'Christopher Markus', born:1964}) 
+CREATE (Stephen:Person {name:'Stephen McFeely', born:1978}) 
+CREATE (Chris:Person {name:'Chris Evans', born:1962})
+CREATE (Hayley:Person {name:'Hayley Atwell', born:1980})
+CREATE (Sebastian:Person {name:'Sebastian Stan', born:1934})
+CREATE (Tommy:Person {name:'Tommy Lee Jones', born:1976})
+CREATE (Hugo:Person {name:'Hugo Weaving', born:1969})
+CREATE (Dominic:Person {name:'Dominic Cooper', born:1961})
+CREATE 
+(Joe)-[:DIRECTED]->(camerica),
+(Christ)-[:WROTE]->(camerica),
+(Stephen)-[:WROTE]->(camerica),
+(Chris)-[:ACTED_IN {roles:['Steve Rogers']}]->(camerica),
+(Hayley)-[:ACTED_IN {roles:['Peggy Carter']}]->(camerica),
+(Sebastian)-[:ACTED_IN {roles:['James Buchanan "Bucky" Barnes']}]->(camerica),
+(Tommy)-[:ACTED_IN {roles:['Colonel Chester Phillips']}]->(camerica),
+(Hugo)-[:ACTED_IN {roles:['Johann Schmidt / Red Skull']}]->(camerica),
+(Dominic)-[:ACTED_IN {roles:['Howard Stark']}]->(camerica)

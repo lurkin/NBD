@@ -1,0 +1,3 @@
+MongoDB shell version: 3.0.6
+connecting to: nbd
+{ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 }
